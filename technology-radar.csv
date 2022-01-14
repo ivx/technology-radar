@@ -1,18 +1,18 @@
 name,ring,quadrant,isNew,description
-Ruby,Adopt,languages-and-frameworks,FALSE,
-TypeScript,Adopt,languages-and-frameworks,FALSE,
-RSpec,Adopt,languages-and-frameworks,FALSE,
-Jest,Adopt,languages-and-frameworks,FALSE,
-Pact,Trial,languages-and-frameworks,FALSE,
+Ruby,Adopt,languages-and-frameworks,FALSE,<p>Ruby is our default programming language for backend services.</p>
+TypeScript,Adopt,languages-and-frameworks,FALSE,<p>TypeScript is our default programming language for frontend services.</p><p>The added types on top of JavaScript have continuously proven very helpful during development of frontend applications. It is also embraced by the wider frontend community.</p>
+RSpec,Adopt,languages-and-frameworks,FALSE,<p>RSpec is our default testing framework for Ruby since it offers all the required functionality out of the box and has the most easily readable syntax.</p>
+Jest,Adopt,languages-and-frameworks,FALSE,<p>Jest is our default testing framework for TypeScript.</p>
+Pact,Trial,languages-and-frameworks,FALSE,<p>Contract testing seems to be the better alternative to true E2E tests. Pact offers an implementation of this technique in a variety of programming languages.</p>
 Docker,Adopt,Platforms,FALSE,
-Pair Programming,Adopt,Techniques,FALSE,
-Test-Driven-Development,Adopt,Techniques,FALSE,
+Pair Programming,Adopt,Techniques,FALSE,<p>Pair programming is a technique that yields far better code quality than just peer reviews. It should be employed in all cases where non-trivial problems are solved during software development.</p>
+Test-Driven-Development,Adopt,Techniques,FALSE,<p>Test-Driven-Development is not just a technique for a guaranteed 100% test coverage. It also forces the author to think about his design before starting to implement. This gives the author immediate feedback on his design, which ultimately leads to much better software quality. TDD should therefore be practiced whenever possible.</p>
 PostgreSQL,Adopt,Platforms,FALSE,
 Redis,Adopt,Platforms,FALSE,
 RabbitMQ,Adopt,Platforms,FALSE,
 Kubernetes,Adopt,Platforms,FALSE,
-OpenAPI,Adopt,Tools,FALSE,
-committee,Adopt,languages-and-frameworks,FALSE,
+OpenAPI,Adopt,Tools,FALSE,<p>Specifying how your API behaves yields similar advantages to TDD. OpenAPI has proven to be a good standard for those specifications. It also aids in generating documentation for your APIs, which is very helpful for other everyone else in the organization.</p>
+committee,Adopt,languages-and-frameworks,FALSE,<p>committee is a Ruby library that verifies your requests and responses against your OpenAPI specification. This guarantees that only valid requests are processed and only valid responses are returned by your HTTP API.</p><p>Unless there are performance problems, those checks should always be enabled for every request and response handled by your service.</p>
 Sequel,Adopt,languages-and-frameworks,FALSE,
 E2E Testing,Hold,Techniques,FALSE,
 Contract Testing,Trial,Techniques,FALSE,
